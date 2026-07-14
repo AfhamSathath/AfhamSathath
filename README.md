@@ -1,5 +1,5 @@
 <h1 align="center">Hey 👋 I'm Sathath Mohamed Afham</h1>
-<h3 align="center">Software Engineer  | MERN Stack Developer | Computer Science Undergraduate</h3>
+<h3 align="center">Software Engineer  | Full Stack Developer | Computer Science Undergraduate</h3>
 
 ---
 
