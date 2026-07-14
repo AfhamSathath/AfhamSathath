@@ -89,7 +89,7 @@ https://github.com/AfhamSathath/Personnal-Web
 https://github.com/AfhamSathath/rdd-stationary-system
 
 Deployment: 
-rdd-stationary-system.vercel.app
+https://rdd-stationary-system.vercel.app
 
 
 ## 📊 GitHub Stats
