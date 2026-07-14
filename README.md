@@ -79,6 +79,19 @@ https://github.com/AfhamSathath/Personnal-Web
 
 ---
 
+### 🏢 RDD Stationary Request Management System
+
+- Full-stack web application for managing stationary requests across multiple department branches
+- Secure branch and admin authentication with role-based access and Row Level Security (RLS)
+- Automatic request summaries, PDF report generation, and request status management
+
+🔗 Repository:  
+https://github.com/AfhamSathath/rdd-stationary-system
+
+Deployment: 
+rdd-stationary-system.vercel.app
+
+
 ## 📊 GitHub Stats
 
 <p align="center">
