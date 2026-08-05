@@ -91,9 +91,7 @@ https://github.com/AfhamSathath/rdd-stationary-system
 Deployment: 
 https://rdd-stationary-system.vercel.app
 
-
-
----
+----------------------------------
 
 **🏥 DocTime Doctor Appointment & Telemedicine System**
 
