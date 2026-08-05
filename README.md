@@ -92,7 +92,10 @@ Deployment:
 https://rdd-stationary-system.vercel.app
 
 
-🩺 DocTime – Doctor Appointment & Telemedicine System
+
+
+
+**🏥 DocTime Doctor Appointment & Telemedicine System**
 
 Cross-platform healthcare solution with Flutter mobile app and Next.js admin portal
 Doctor discovery, appointment scheduling, telemedicine, digital prescriptions, patient records, and secure in-app messaging
