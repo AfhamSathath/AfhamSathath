@@ -92,6 +92,8 @@ Deployment:
 https://rdd-stationary-system.vercel.app
 
 
+
+
 # DocTime: Full-Stack Doctor Appointment & Telemedicine System
 
 DocTime is a full-stack, multi-platform doctor appointment booking and consultation system. It features a **Flutter mobile app** (for both Patients and Doctors) and a **Next.js admin web panel** powered by a unified **REST API backend** built with Next.js App Router, Prisma ORM, and PostgreSQL (Supabase).
@@ -166,61 +168,12 @@ The database is built on **PostgreSQL** with relationships managed through **Pri
 - **Message:** Logs internal communication history between users (`senderId`, `receiverId`, `text`).
 - **Notification:** Manages delivery of system alerts and read/unread statuses.
 
----
 
-## 💻 Setup and Installation
 
-### Prerequisites
-- Node.js (v18+)
-- Flutter SDK (v3+)
-- PostgreSQL Database Instance (e.g. Supabase)
 
-### Backend & Web Admin Setup
-1. Clone the project and navigate to the `web` folder.
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Set up the `.env` file:
-   ```env
-   DATABASE_URL="your-postgresql-connection-string"
-   JWT_SECRET="your-jwt-secret-key"
-   SMTP_HOST="smtp.gmail.com"
-   SMTP_PORT=587
-   SMTP_USER="your-email@gmail.com"
-   SMTP_PASS="your-app-password"
-   ```
-4. Push the database schema:
-   ```bash
-   npx prisma db push
-   ```
-5. Start the web application:
-   ```bash
-   npm run dev
-   ```
 
-### Mobile App Setup
-1. Navigate to the `mobile` folder.
-2. Configure the server base URL in `lib/services/api_service.dart`:
-   ```dart
-   static String get baseUrl => 'http://<your-local-ip>:3000/api';
-   ```
-3. Install packages and run:
-   ```bash
-   flutter pub get
-   flutter run
-   ``` based on this give a small paragraph to added suitable my portpolio
-## 📊 GitHub Stats
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=AfhamSathath&show_icons=true&theme=tokyonight" alt="github stats" />
-</p>
 
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AfhamSathath&theme=tokyonight" alt="streak stats" />
-</p>
-
----
 
 ## 📚 Education
 
