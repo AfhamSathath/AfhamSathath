@@ -143,21 +143,7 @@ UrbanThread is a high-performance, enterprise-grade Point of Sale (POS) and inve
 
 ---
 
-## 🚀 Quick Start (Local Development)
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/urbanthread-pos.git
-cd urbanthread-pos
-
-# 2. Install dependencies
-npm install
-
-# 3. Start the application (Frontend + Backend concurrently)
-npm start
-
-
----------------------------------------------------------------------------------------------
 
 ## 📚 Education
 
