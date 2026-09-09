@@ -140,7 +140,88 @@ UrbanThread is a high-performance, enterprise-grade Point of Sale (POS) and inve
 - **Database**: MongoDB (Mongoose ORM)
 - **DevOps**: Docker, Docker Compose, Nginx, Vercel
 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 🏛️ eGov Sri Lanka AI Assistant & Citizen Portal
+
+The **eGov Sri Lanka AI Assistant** is a modern e-Governance platform engineered to revolutionize citizen interaction with public institutions. Built with a responsive React frontend and an Express/Node backend, the portal features a real-time trilingual AI assistant (English, Sinhala, Tamil), an encrypted digital document vault, real-time application tracking, and automated administrative workflow assistance.
+
 ---
+
+## ✨ Core Features & Key Modules
+
+### 🤖 1. Trilingual AI Citizen Assistant
+- **Multilingual NLU Support**: Full conversational assistance across English, Sinhala (`සිංහල`), and Tamil (`தமிழ்`).
+- **Eligibility & Service Guidance**: Interactive evaluation for passport renewals, driving licenses, birth certificates, and Grama Niladhari (GN) confirmations.
+- **Smart Form Auto-Filling**: Dynamically injects verified citizen identity records into administrative forms to prevent human errors.
+
+### 📊 2. Unified Citizen Dashboard
+- **Application Milestone Tracker**: Visual progress meters and status updates for active requests.
+- **Quick Launchpad**: Immediate portal access for key Ministries, Departments, and Divisional Secretariats.
+- **Real-Time Notification Hub**: Alerts for biometrics appointments, document verification updates, and renewal deadlines.
+
+### 🔒 3. Secure Digital Document Vault
+- **Encrypted Document Management**: Stores official files including National Identity Cards (NIC), Birth Certificates, Revenue Licenses, and Utility Bills.
+- **Verification Badging System**: Displays official verification statuses for verified e-services attachments.
+- **Multer Upload Engine**: Secure file upload handling with strict MIME type validation and file size restrictions.
+
+### 📍 4. Service Tracker & Appointment System
+- **Timeline Inspection**: Detailed step-by-step progress tracking (Submission ➔ Biometrics ➔ Processing ➔ Dispatch).
+- **Divisional Secretariat Queue Management**: Book appointment slots at local Secretariats to reduce physical queue times.
+
+### 🆔 5. Trilingual Digital Citizen Identity
+- **Complete Sri Lankan Administrative Mapping**: Tracks citizen records across District, Divisional Secretariat (DS), and Grama Niladhari (GN) divisions.
+- **Native Script Support**: Full representation of English, Sinhala, and Tamil name structures matching official registrar databases.
+- **AI Access & Privacy Toggles**: Citizen-controlled permission settings for automated AI data processing.
+
+---
+
+## 🛠️ Technology Stack
+
+| Component | Technologies Used |
+| :--- | :--- |
+| **Frontend Framework** | React 18, Vite |
+| **Styling & UI** | Vanilla CSS (Modern Dark/Glassmorphism Design System), Lucide Icons |
+| **Backend API** | Node.js, Express.js REST API |
+| **Authentication & Middleware** | JWT (JSON Web Tokens), CORS, Multer File Engine |
+| **Database Layer** | SQLite3 / Sequelize ORM (Relational), MongoDB / Mongoose (Document Support) |
+| **Hosting & Deployment** | Vercel (Frontend & Cloud Serverless Functions) |
+
+---
+
+## 🏗️ System Architecture Overview
+
+                  ┌───────────────────────────────┐
+                  │   React 18 + Vite Frontend    │
+                  │ (Trilingual UI / Components) │
+                  └───────────────┬───────────────┘
+                                  │ REST API / JSON
+                                  ▼
+                  ┌───────────────────────────────┐
+                  │     Express.js API Server     │
+                  │    (Auth / Uploads / Routes)  │
+                  └───────────────┬───────────────┘
+                                  │
+           ┌──────────────────────┴──────────────────────┐
+           ▼                                             ▼
+
+
+┌───────────────────────────────┐ ┌───────────────────────────────┐ │ SQLite3 / Sequelize DB │ │ Multer Storage System │ │ (Citizens, Apps, Vault Meta) │ │ (Secure Document Uploads) │ └───────────────────────────────┘ └───────────────────────────────┘
+
+
+
+---
+
+## ⚡ Highlights & Key Achievements
+- **Trilingual Accessibility**: Fully localized UI & AI logic enabling inclusive governance access for all citizens.
+- **Enterprise Design**: Modern glassmorphism UI built with pure CSS utility principles and zero dynamic layout flaws.
+- **Administrative Precision**: Aligns with official Sri Lankan administrative hierarchy down to GN division level.
+
+
+Demo Link: https://e-gov-ai-assistant.vercel.app
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
