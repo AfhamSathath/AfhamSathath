@@ -119,7 +119,7 @@ UrbanThread is a high-performance, enterprise-grade Point of Sale (POS) and inve
 
 🔗 **Live Application**: [pos-sys-beige.vercel.app](https://pos-sys-beige.vercel.app/login)
 
----
+
 
 ## ✨ Key Features
 
@@ -132,7 +132,7 @@ UrbanThread is a high-performance, enterprise-grade Point of Sale (POS) and inve
 - **📝 Audit Logging**: Tracks sensitive operational actions for auditing and accountability.
 - **🌓 Theme Engine**: Seamless Dark / Light mode toggle.
 
----
+
 
 ## 🛠️ Architecture & Tech Stack
 
