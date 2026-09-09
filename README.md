@@ -112,8 +112,7 @@ https://doctor-appoinment-iota.vercel.app/
 
 # 🛍️ UrbanThread — Modern Fashion & Retail POS System
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-brightgreen?style=for-the-badge&logo=vercel)](https://pos-sys-beige.vercel.app)
-[![Tech Stack](https://img.shields.io/badge/Stack-React%20%7C%20TypeScript%20%7C%20Express%20%7C%20MongoDB-blue?style=for-the-badge)](https://pos-sys-beige.vercel.app)
+
 
 UrbanThread is a high-performance, enterprise-grade Point of Sale (POS) and inventory management platform specifically designed for fashion apparel and retail businesses.
 
