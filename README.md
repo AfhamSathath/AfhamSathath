@@ -146,7 +146,10 @@ UrbanThread is a high-performance, enterprise-grade Point of Sale (POS) and inve
 
 The **eGov Sri Lanka AI Assistant** is a modern e-Governance platform engineered to revolutionize citizen interaction with public institutions. Built with a responsive React frontend and an Express/Node backend, the portal features a real-time trilingual AI assistant (English, Sinhala, Tamil), an encrypted digital document vault, real-time application tracking, and automated administrative workflow assistance.
 
----
+
+
+
+
 
 ## ✨ Core Features & Key Modules
 
@@ -174,7 +177,10 @@ The **eGov Sri Lanka AI Assistant** is a modern e-Governance platform engineered
 - **Native Script Support**: Full representation of English, Sinhala, and Tamil name structures matching official registrar databases.
 - **AI Access & Privacy Toggles**: Citizen-controlled permission settings for automated AI data processing.
 
----
+
+
+
+
 
 ## 🛠️ Technology Stack
 
@@ -187,7 +193,10 @@ The **eGov Sri Lanka AI Assistant** is a modern e-Governance platform engineered
 | **Database Layer** | SQLite3 / Sequelize ORM (Relational), MongoDB / Mongoose (Document Support) |
 | **Hosting & Deployment** | Vercel (Frontend & Cloud Serverless Functions) |
 
----
+
+
+
+
 
 ## 🏗️ System Architecture Overview
 
@@ -210,12 +219,17 @@ The **eGov Sri Lanka AI Assistant** is a modern e-Governance platform engineered
 
 
 
----
+
+
+
+
 
 ## ⚡ Highlights & Key Achievements
 - **Trilingual Accessibility**: Fully localized UI & AI logic enabling inclusive governance access for all citizens.
 - **Enterprise Design**: Modern glassmorphism UI built with pure CSS utility principles and zero dynamic layout flaws.
 - **Administrative Precision**: Aligns with official Sri Lankan administrative hierarchy down to GN division level.
+
+
 
 
 Demo Link: https://e-gov-ai-assistant.vercel.app
