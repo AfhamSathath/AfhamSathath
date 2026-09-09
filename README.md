@@ -106,6 +106,55 @@ Deployment on Web:
 https://doctor-appoinment-iota.vercel.app/
 
 
+
+# 🛍️ UrbanThread — Modern Fashion & Retail POS System
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-brightgreen?style=for-the-badge&logo=vercel)](https://pos-sys-beige.vercel.app)
+[![Tech Stack](https://img.shields.io/badge/Stack-React%20%7C%20TypeScript%20%7C%20Express%20%7C%20MongoDB-blue?style=for-the-badge)](https://pos-sys-beige.vercel.app)
+
+UrbanThread is a high-performance, enterprise-grade Point of Sale (POS) and inventory management platform specifically designed for fashion apparel and retail businesses.
+
+🔗 **Live Application**: [pos-sys-beige.vercel.app](https://pos-sys-beige.vercel.app)
+
+---
+
+## ✨ Key Features
+
+- **⚡ Fast POS Terminal**: Designed for high-volume cashiers with instant product lookup, barcode scanning, split payments, and receipt generation.
+- **👗 Variant Matrix Catalog**: Supports multidimensional attributes (Sizes, Colors, Brands, Collections) and integrated barcode generation.
+- **🔐 Fine-Grained RBAC**: Pre-configured permission tiers for `Super Admin`, `Store Manager`, `Inventory Manager`, and `Cashier`.
+- **📦 Inventory & Stock Transfers**: Live stock overview, low-stock threshold alerts, and inter-outlet stock movement.
+- **🛒 Purchasing & Procurement**: Supplier directory, Purchase Orders (PO), and Goods Received Notes (GRN) workflow.
+- **📊 Business Intelligence**: Real-time sales reports, category breakdowns, and fashion analytics powered by Recharts.
+- **📝 Audit Logging**: Tracks sensitive operational actions for auditing and accountability.
+- **🌓 Theme Engine**: Seamless Dark / Light mode toggle.
+
+---
+
+## 🛠️ Architecture & Tech Stack
+
+- **Frontend**: React 18, TypeScript, Vite, Tailwind CSS, Lucide Icons, Recharts, React Router v6
+- **Backend**: Node.js, Express.js, REST API
+- **Database**: MongoDB (Mongoose ORM)
+- **DevOps**: Docker, Docker Compose, Nginx, Vercel
+
+---
+
+## 🚀 Quick Start (Local Development)
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/urbanthread-pos.git
+cd urbanthread-pos
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the application (Frontend + Backend concurrently)
+npm start
+
+
+
 ## 📚 Education
 
 🎓 **Bachelor of Computer Science**  
